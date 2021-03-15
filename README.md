@@ -1,6 +1,6 @@
 # denorc
 
-Define deno version for each workspace so that it can be switched.
+Define Deno version for each workspace so that it can be switched.
 
 ## Generate
 
