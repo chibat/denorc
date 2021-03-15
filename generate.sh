@@ -32,7 +32,7 @@ then
   curl -fsSL https://deno.land/x/install/install.sh | sh -s $VERSION
 fi
 export PATH="$DENO_INSTALL/bin:$PATH"
-deno --version
+deno -V
 
 EOT
 
