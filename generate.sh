@@ -26,13 +26,13 @@ cat << 'EOT' | sed "s/__VERSION__/$version/" > ./.denorc
 VERSION=__VERSION__
 
 export DENO_INSTALL=$HOME/.deno_versions/$VERSION
-if [ ! -f $DENO_INSTALL/bin/deno -o "$(deno -V)" != "deno $VERSION" ]
+denov=$(deno -V)
+if [ ! -f $DENO_INSTALL/bin/deno -o "${denov//deno /v}" != "$VERSION" ]
 then
-	  curl -fsSL https://deno.land/x/install/install.sh | sh -s v$VERSION
+  curl -fsSL https://deno.land/x/install/install.sh | sh -s $VERSION
 fi
 export PATH="$DENO_INSTALL/bin:$PATH"
 deno --version
-
 EOT
 
 echo "'.denorc' was generated."
