@@ -20,5 +20,6 @@ curl -fsSL https://raw.githubusercontent.com/chibat/denorc/master/generate.sh | 
 
 ```
 . .denorc
+code . # or vi .
 ```
 
