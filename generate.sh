@@ -33,6 +33,7 @@ then
 fi
 export PATH="$DENO_INSTALL/bin:$PATH"
 deno --version
+
 EOT
 
 echo "'.denorc' was generated."

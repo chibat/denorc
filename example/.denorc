@@ -1,6 +1,4 @@
-# $ . .denorc
-
-VERSION=v1.8.0
+VERSION=v1.8.1
 
 export DENO_INSTALL=$HOME/.deno_versions/$VERSION
 denov=$(deno -V)
@@ -10,4 +8,3 @@ then
 fi
 export PATH="$DENO_INSTALL/bin:$PATH"
 deno --version
-
