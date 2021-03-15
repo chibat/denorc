@@ -1,4 +1,4 @@
-VERSION=v1.6.0
+VERSION=v1.8.0
 
 export DENO_INSTALL=$HOME/.deno_versions/$VERSION
 denov=$(deno -V)

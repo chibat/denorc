@@ -13,7 +13,7 @@ $ curl -fsSL https://raw.githubusercontent.com/chibat/denorc/master/generate.sh 
 The following command generates the specified version of `.denorc` in current directory.
 
 ```
-$ curl -fsSL https://raw.githubusercontent.com/chibat/denorc/master/generate.sh | sh -s v1.4.1
+$ curl -fsSL https://raw.githubusercontent.com/chibat/denorc/master/generate.sh | sh -s v1.8.0
 ```
 
 ## Usage
