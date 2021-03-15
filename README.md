@@ -1,5 +1,7 @@
 # denorc
 
+Define deno version for each workspace so that it can be switched.
+
 ## Generate
 
 The following command generates the latest version of `.denorc` in current directory.
